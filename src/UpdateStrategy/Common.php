@@ -5,7 +5,6 @@
 
 namespace GildedRose\UpdateStrategy;
 
-
 use GildedRose\Item;
 
 /**
@@ -16,14 +15,13 @@ class Common extends StrategyAbstract
 {
 
     /**
-     * Скорость порчи продукта
+     * Item corruption speed
      * @var int
      */
     protected $corruption_step = 1;
 
     /**
-     * @param Item $item
-     * @return void
+     * @inheritdoc
      */
     public function update(Item $item)
     {

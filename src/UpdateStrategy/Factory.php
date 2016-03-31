@@ -5,7 +5,10 @@
 
 namespace GildedRose\UpdateStrategy;
 
-
+/**
+ * Class Factory
+ * @package GildedRose\UpdateStrategy
+ */
 class Factory
 {
 

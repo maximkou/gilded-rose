@@ -2,9 +2,12 @@
 
 namespace GildedRose\Test;
 
-
 use GildedRose\GildedRose;
 
+/**
+ * Class GildedRoseTest
+ * @package GildedRose\Test
+ */
 class GildedRoseTest extends \PHPUnit_Framework_TestCase
 {
 
@@ -51,5 +54,4 @@ class GildedRoseTest extends \PHPUnit_Framework_TestCase
 
         return $itemMock;
     }
-
 }

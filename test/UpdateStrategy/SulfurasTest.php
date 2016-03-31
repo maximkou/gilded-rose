@@ -2,7 +2,6 @@
 
 namespace GildedRose\Test\UpdateStrategy;
 
-
 use GildedRose\UpdateStrategy\Factory;
 use GildedRose\Item;
 use GildedRose\UpdateStrategy\Sulfuras;

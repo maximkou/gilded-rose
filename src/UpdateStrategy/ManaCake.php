@@ -4,8 +4,8 @@
  */
 
 namespace GildedRose\UpdateStrategy;
-use GildedRose\Item;
 
+use GildedRose\Item;
 
 /**
  * Class ManaCake
@@ -14,12 +14,18 @@ use GildedRose\Item;
 class ManaCake extends Common
 {
 
+    /**
+     * ManaCake constructor.
+     */
     public function __construct()
     {
-        /* этот продукт портится в 2 раза быстрее чем обычный */
+        /* this product corrupt with x2 speed */
         $this->corruption_step *= 2;
     }
 
+    /**
+     * @inheritdoc
+     */
     public function update(Item $item)
     {
         parent::update($item);

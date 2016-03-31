@@ -5,7 +5,10 @@
 
 namespace GildedRose;
 
-
+/**
+ * Class Item
+ * @package GildedRose
+ */
 class Item
 {
 
@@ -43,6 +46,7 @@ class Item
     }
 
     /**
+     * Update item quality
      * @return void
      */
     public function updateQuality()
@@ -68,5 +72,4 @@ class Item
     {
         return UpdateStrategy\Factory::createByProductName($product_name);
     }
-
 }

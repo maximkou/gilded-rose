@@ -2,6 +2,10 @@
 
 namespace GildedRose;
 
+/**
+ * Class GildedRose
+ * @package GildedRose
+ */
 class GildedRose
 {
 
@@ -20,6 +24,7 @@ class GildedRose
     }
 
     /**
+     * Update all shop items qualities
      * @return void
      */
     public function updateQuality()
@@ -37,4 +42,3 @@ class GildedRose
         return $this->items;
     }
 }
-

@@ -5,10 +5,8 @@
 
 namespace GildedRose\Test\UpdateStrategy;
 
-
 use GildedRose\Item;
 use GildedRose\UpdateStrategy\StrategyInterface;
-
 
 abstract class AbstractTest extends \PHPUnit_Framework_TestCase
 {

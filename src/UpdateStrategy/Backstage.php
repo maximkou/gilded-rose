@@ -5,7 +5,6 @@
 
 namespace GildedRose\UpdateStrategy;
 
-
 use GildedRose\Item;
 
 /**
@@ -16,8 +15,7 @@ class Backstage extends StrategyAbstract
 {
 
     /**
-     * @param Item $item
-     * @return void
+     * @inheritdoc
      */
     public function update(Item $item)
     {

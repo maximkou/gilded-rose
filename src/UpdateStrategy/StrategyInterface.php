@@ -2,7 +2,6 @@
 
 namespace GildedRose\UpdateStrategy;
 
-
 use GildedRose\Item;
 
 /**
@@ -14,6 +13,7 @@ interface StrategyInterface
     const MAX_QUALITY = 50;
 
     /**
+     * Update item by this strategy
      * @param Item $item
      * @return void
      */

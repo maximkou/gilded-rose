@@ -2,7 +2,6 @@
 
 namespace GildedRose\Test\UpdateStrategy;
 
-
 use GildedRose\Item;
 use GildedRose\UpdateStrategy\StrategyAbstract;
 
